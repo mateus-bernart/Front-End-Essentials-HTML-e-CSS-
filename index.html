@@ -12,6 +12,13 @@
 
 <body>
     <header>
+        <!-- MENU DE NAVEGAÇÃO -->
+        <nav>
+            <a href="#">Início</a>
+            <a href="#">Cursos</a>
+            <a href="#">Sobre</a>
+
+        </nav>
         <h3>SITE TREINO </h3>
         <h4>FRONT-END ESSENCIAL </h4>
     </header>
@@ -21,7 +28,7 @@
     <button> COMPRAR! </button>
 </div>
 
-<br><br>
+<br><br><br><br>
 
     <section class="container" id="container">
         <h1>Análise de Sistemas </h1>
@@ -34,9 +41,6 @@
     <br>
     </section>
 
-    <!-- Atualização -->
-    <!-- testes -->
-    <!-- Atualização 2-->
     <section class="container" id="grid-container">
         <div class="grid">
             <div>Conteúdo 1</div>
@@ -52,6 +56,45 @@
     <br>  
     <section class="container" id="formulario">
         <h2>Selecione um Produto para Mais informações</h2>
+        
+        <form action="#" method="get" target="_blank"> 
+            
+            <p class="formulário-contato">
+                
+                <label for="nome">Nome:</label><br>
+                <!-- Coleta de informações do usuário -->
+                <input class="dados-formulário" type="text" id="nome" name="nome" placeholder="Insira seu nome:">
+
+            </p>
+
+            <p class="formulário-contato">
+                
+                <label for="contato">Contato:</label><br>
+                <!-- Coleta de informações do usuário -->
+                <input class="dados-formulário" type="tel" id="nome" name="nome" placeholder="Insira seu Whatsapp:">
+
+            </p>
+            
+            <p class="formulario-contato">
+
+                <input type="checkbox" id="office" name="office" value="Cursos de office">
+                <label for="office">Quero saber mais sobre cursos de office.</label>
+                <br><br>
+                <input type="checkbox" id="web" name="web" value="Cursos desenvolvimento web">
+                <label for="web">Quero saber mais sobre cursos de desenvolvimento web.</label>
+                <br><br>
+                <input type="checkbox" id="marketing" name="marketing" value="Cursos de marketing">
+                <label for="marketing">Quero saber mais sobre cursos de marketing.</label>
+            
+            </p>
+            
+            <p class="formulario-contato">
+                <input type="Reset" value="LIMPAR">
+                <input type="Enviar" value="ENVIAR">
+
+            </p>
+
+        </form>
        
     </section>
     <br>

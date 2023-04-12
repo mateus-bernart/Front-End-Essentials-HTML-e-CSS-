@@ -7,6 +7,7 @@
 
 #formulario{
     background-color: rgba(173, 216, 239, 1.0);
+    padding: 10px;
 }
 
 header{
@@ -38,7 +39,7 @@ h1{
 
 }
 h2{
-    font-size: 2rem;
+    font-size: 1.3rem;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 5px;
@@ -73,6 +74,51 @@ button{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0;
     padding: 2px;
+}
+input{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.1rem;
+    padding: 5px;
+}
+label{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.1rem;
+    padding: 5px;
+
+
+}
+nav{
+    text-align: right;
+    margin-top: 10px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.3rem;
+    margin-right: 20px;
+    word-spacing: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    transition: all 250ms ease-in-out;
+}
+
+/* ALTERAR O ESTADO QUANDO MOUSE PASSA POR CIMA */
+a:hover{
+    color:yellow ;
+}
+
+.formulario-contato{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+    padding: 10px;
+    text-align: left;
+    margin-left: 1%;
+    font-weight: bold;
+     
+}
+.dados-formulário{
+    width: 60%;
 }
 
 #grid-container{
@@ -120,7 +166,7 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .compre{
-     background-color: yellow;
+     background-color: rgba(255, 255, 0, 0.9);
      width: 100px;
      height: 100px;
      position: fixed;
@@ -129,3 +175,5 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
      margin-top: 2%;
      z-index: 1; /* posição de ordem */
 }
+
+
